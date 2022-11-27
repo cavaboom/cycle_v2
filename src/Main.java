@@ -50,5 +50,16 @@ public class Main {
             }
         }
         System.out.println("Сумма накоплений равна " +deposite_v2);
+        // Задание 2.3
+        System.out.println("Задание 2.3");
+        double deposite_v3 = 15000;
+        int month_v2 = 1;
+        while (month_v2 <= 108) {
+            deposite_v3 = deposite_v3 + deposite_v3 * 0.07;
+            if (month_v2 % 6 == 0) {
+                System.out.println("Месяц " + month_v2 + " сумма накоплений " + deposite_v3);
+            }
+            month_v2++;
+        }
     }
 }
