@@ -40,6 +40,15 @@ public class Main {
             System.out.println("Месяц " +a+ " сумма накоплений " +deposite);
         }
         System.out.println("Сумма накоплений равна " +deposite);
-
+        // Задание 2.2
+        System.out.println("Задание 2.2");
+        double deposite_v2 = 15000;
+        for (int a = 1; deposite_v2 <= 12_000_000; a++) {
+            deposite_v2 = deposite_v2 + deposite_v2 * 0.07;
+            if (a % 6 == 0) {
+                System.out.println("Месяц " + a + " сумма накоплений " + deposite_v2);
+            }
+        }
+        System.out.println("Сумма накоплений равна " +deposite_v2);
     }
 }
