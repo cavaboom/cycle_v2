@@ -32,5 +32,14 @@ public class Main {
             System.out.println("Год " +year+ " численность населения составляет " +population);
         }
         System.out.println("Численность населения через 10 лет " +population);
+        // Задание 2.1
+        System.out.println("Задание 2.1");
+        double deposite = 15000;
+        for (int a = 1; deposite <= 12_000_000; a++) {
+            deposite = deposite + deposite * 0.07;
+            System.out.println("Месяц " +a+ " сумма накоплений " +deposite);
+        }
+        System.out.println("Сумма накоплений равна " +deposite);
+
     }
 }
