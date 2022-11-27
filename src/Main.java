@@ -4,7 +4,7 @@ public class Main {
         System.out.println("Задание 1.1");
         int deposit = 15000;
         int total = 0;
-        int month = 0    ;
+        int month = 0;
         while (total < 2_459_000) {
             month++;
             total = total + deposit;
@@ -21,5 +21,16 @@ public class Main {
         for (i = 10; i >= 1; i--) {
             System.out.print(i);
         }
+        System.out.println();
+        // Задание 1.3
+        System.out.println("Задание 1.3");
+        int population = 12_000_000;
+        int born = 17;
+        int death = 8;
+        for (int year = 1; year <= 10; year++) {
+            population = population + population * (born - death) / 1000;
+            System.out.println("Год " +year+ " численность населения составляет " +population);
+        }
+        System.out.println("Численность населения через 10 лет " +population);
     }
 }
