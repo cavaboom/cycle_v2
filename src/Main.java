@@ -61,5 +61,11 @@ public class Main {
             }
             month_v2++;
         }
+        // Задание 2.4
+        System.out.println("Задание 2.4");
+        int friday = 4;
+        for (; friday < 31; friday = friday + 7) {
+            System.out.println("Сегодня пятница, " + friday + "-е число. Необходимо поготовить отчёт.");
+        }
     }
 }
