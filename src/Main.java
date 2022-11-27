@@ -67,5 +67,20 @@ public class Main {
         for (; friday < 31; friday = friday + 7) {
             System.out.println("Сегодня пятница, " + friday + "-е число. Необходимо поготовить отчёт.");
         }
+        //Задание 3.1
+        System.out.println("Задание 3.1");
+        int cometYear = 0;
+        int cometPeriod = 79;
+        int ourYear = 2022;
+        int startPeriod = ourYear - 200;
+        int endPeriod = ourYear + 100;
+        for (; cometYear <= endPeriod; cometYear = cometYear + cometPeriod) {
+            if (cometYear >= startPeriod && cometYear <= ourYear) {
+                System.out.println(cometYear);
+            }
+            if (cometYear <= endPeriod && cometYear >= ourYear) {
+                System.out.println(cometYear);
+            }
+        }
     }
 }
