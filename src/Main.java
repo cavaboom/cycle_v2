@@ -82,5 +82,10 @@ public class Main {
                 System.out.println(cometYear);
             }
         }
+        //Задание 3.2
+        System.out.println("Задание 3.2");
+        for (int b = 1; b <= 10; b++) {
+            System.out.println("2 * " +b+ " = " +b*2);
+        }
     }
 }
